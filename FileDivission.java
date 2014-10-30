@@ -18,7 +18,7 @@ public class FileDivission {
 		
 		ArrayList<FSDataOutputStream> out = new ArrayList<FSDataOutputStream>();
 		for(int i = 0; i < numFiles; i++){
-			Path tempPath = new Path("/home/cs570/Desktop/tempout/file"+i);
+			Path tempPath = new Path("/home/yansong/Desktop/tempout/file"+i);
 			out.add(local.create(tempPath));
 		}
 		
